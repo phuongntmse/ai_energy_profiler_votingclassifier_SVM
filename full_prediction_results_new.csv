@@ -1,0 +1,181 @@
+file_name,prediction,confidence,second_prediction,second_confidence,possible_mix_guess
+cpu_14_test_01.csv,Memory intensive,0.6836,CPU intensive,0.1987,None
+cpu_14_test_02.csv,Memory intensive,0.7623,CPU intensive,0.1983,None
+cpu_14_test_03.csv,Memory intensive,0.7141,CPU intensive,0.1627,None
+cpu_14_test_04.csv,Memory intensive,0.7427,CPU intensive,0.1418,None
+cpu_14_test_05.csv,Memory intensive,0.7432,CPU intensive,0.1509,None
+cpu_14_test_06.csv,Memory intensive,0.7429,CPU intensive,0.1552,None
+cpu_14_test_07.csv,Memory intensive,0.7348,CPU intensive,0.1425,None
+cpu_14_test_08.csv,Memory intensive,0.7501,CPU intensive,0.1535,None
+cpu_14_test_09.csv,Memory intensive,0.7723,CPU intensive,0.1379,None
+cpu_14_test_10.csv,Memory intensive,0.7546,CPU intensive,0.1532,None
+cpu_15_test_01.csv,CPU intensive,0.6886,Network intensive,0.1937,None
+cpu_15_test_02.csv,CPU intensive,0.8136,Network intensive,0.0953,None
+cpu_15_test_03.csv,CPU intensive,0.8048,Network intensive,0.1016,None
+cpu_15_test_04.csv,CPU intensive,0.8426,Network intensive,0.0903,None
+cpu_15_test_05.csv,CPU intensive,0.8314,Network intensive,0.0963,None
+cpu_15_test_06.csv,CPU intensive,0.9141,Network intensive,0.0467,None
+cpu_15_test_07.csv,CPU intensive,0.8435,Network intensive,0.0916,None
+cpu_15_test_08.csv,CPU intensive,0.8468,Network intensive,0.0819,None
+cpu_15_test_09.csv,CPU intensive,0.8521,Network intensive,0.0871,None
+cpu_15_test_10.csv,CPU intensive,0.8578,Network intensive,0.0853,None
+cpu_16_test_01.csv,Memory intensive,0.6518,CPU intensive,0.3345,None
+cpu_16_test_02.csv,Memory intensive,0.7836,CPU intensive,0.1894,None
+cpu_16_test_03.csv,Memory intensive,0.6575,CPU intensive,0.3204,None
+cpu_16_test_04.csv,Memory intensive,0.7819,CPU intensive,0.1732,None
+cpu_16_test_05.csv,Memory intensive,0.6729,CPU intensive,0.3106,None
+cpu_16_test_06.csv,Memory intensive,0.6842,CPU intensive,0.2987,None
+cpu_16_test_07.csv,Memory intensive,0.7259,CPU intensive,0.251,None
+cpu_16_test_08.csv,Memory intensive,0.7124,CPU intensive,0.2618,None
+cpu_16_test_09.csv,Memory intensive,0.6851,CPU intensive,0.2974,None
+cpu_16_test_10.csv,Memory intensive,0.6945,CPU intensive,0.2852,None
+disk_10_test_01.csv,CPU intensive,0.6639,Disk intensive,0.2996,None
+disk_10_test_02.csv,CPU intensive,0.6876,Disk intensive,0.2329,None
+disk_10_test_03.csv,CPU intensive,0.6926,Disk intensive,0.2575,None
+disk_10_test_04.csv,CPU intensive,0.6475,Disk intensive,0.2686,None
+disk_10_test_05.csv,CPU intensive,0.6979,Disk intensive,0.2461,None
+disk_10_test_06.csv,CPU intensive,0.6734,Disk intensive,0.2445,None
+disk_10_test_07.csv,CPU intensive,0.6761,Disk intensive,0.2436,None
+disk_10_test_08.csv,CPU intensive,0.6531,Disk intensive,0.2637,None
+disk_10_test_09.csv,CPU intensive,0.6811,Disk intensive,0.2458,None
+disk_10_test_10.csv,CPU intensive,0.668,Disk intensive,0.255,None
+disk_9_test_01.csv,Disk intensive,0.9949,Memory intensive,0.0042,None
+disk_9_test_02.csv,Disk intensive,0.9841,Memory intensive,0.0118,None
+disk_9_test_03.csv,Disk intensive,0.7044,CPU intensive,0.2207,None
+disk_9_test_04.csv,Disk intensive,0.6977,CPU intensive,0.2256,None
+disk_9_test_05.csv,Disk intensive,0.6873,CPU intensive,0.2331,None
+disk_9_test_06.csv,Disk intensive,0.6817,CPU intensive,0.235,None
+disk_9_test_07.csv,Disk intensive,0.9771,Memory intensive,0.0154,None
+disk_9_test_08.csv,Disk intensive,0.9714,Memory intensive,0.0181,None
+disk_9_test_09.csv,Disk intensive,0.9617,Memory intensive,0.0225,None
+disk_9_test_10.csv,Disk intensive,0.9518,Memory intensive,0.0262,None
+jv_collection_01.csv,Memory intensive,0.5588,CPU intensive,0.2101,None
+jv_collection_02.csv,Memory intensive,0.578,CPU intensive,0.2064,None
+jv_collection_03.csv,Memory intensive,0.5568,CPU intensive,0.2183,None
+jv_collection_04.csv,Memory intensive,0.6083,CPU intensive,0.1751,None
+jv_collection_05.csv,Memory intensive,0.5854,CPU intensive,0.1935,None
+jv_collection_06.csv,Memory intensive,0.5808,CPU intensive,0.2043,None
+jv_collection_07.csv,Memory intensive,0.6005,CPU intensive,0.1846,None
+jv_collection_08.csv,Memory intensive,0.5615,CPU intensive,0.2222,None
+jv_collection_09.csv,Memory intensive,0.6239,CPU intensive,0.1494,None
+jv_collection_10.csv,Memory intensive,0.5451,CPU intensive,0.2355,None
+memory_5_test_01.csv,Disk intensive,0.4606,CPU intensive,0.3009,Disk intensive + CPU intensive
+memory_5_test_02.csv,Disk intensive,0.4518,CPU intensive,0.3172,Disk intensive + CPU intensive
+memory_5_test_03.csv,Disk intensive,0.4538,CPU intensive,0.322,Disk intensive + CPU intensive
+memory_5_test_04.csv,Disk intensive,0.499,CPU intensive,0.3161,Disk intensive + CPU intensive
+memory_5_test_05.csv,Disk intensive,0.4662,CPU intensive,0.3096,Disk intensive + CPU intensive
+memory_5_test_06.csv,Disk intensive,0.4448,CPU intensive,0.3134,Disk intensive + CPU intensive
+memory_5_test_07.csv,Disk intensive,0.4836,CPU intensive,0.3335,Disk intensive + CPU intensive
+memory_5_test_08.csv,Disk intensive,0.428,CPU intensive,0.3288,Disk intensive + CPU intensive
+memory_5_test_09.csv,Disk intensive,0.499,CPU intensive,0.3279,Disk intensive + CPU intensive
+memory_5_test_10.csv,Disk intensive,0.4331,CPU intensive,0.3167,Disk intensive + CPU intensive
+mvn_build_activiti_01.csv,Memory intensive,0.5194,Disk intensive,0.2706,None
+mvn_build_activiti_02.csv,Memory intensive,0.4942,CPU intensive,0.2924,None
+mvn_build_activiti_03.csv,Memory intensive,0.4846,CPU intensive,0.2906,Memory intensive + CPU intensive
+mvn_build_activiti_04.csv,Memory intensive,0.542,CPU intensive,0.157,None
+mvn_build_activiti_05.csv,Memory intensive,0.5329,CPU intensive,0.2471,None
+mvn_build_activiti_06.csv,Memory intensive,0.4495,CPU intensive,0.2432,None
+mvn_build_activiti_07.csv,Memory intensive,0.4457,CPU intensive,0.2509,Memory intensive + CPU intensive
+mvn_build_activiti_08.csv,Memory intensive,0.5373,CPU intensive,0.1617,None
+mvn_build_activiti_09.csv,CPU intensive,0.4579,Memory intensive,0.3163,CPU intensive + Memory intensive
+mvn_build_activiti_10.csv,Memory intensive,0.5165,CPU intensive,0.256,None
+mvn_build_clojure_01.csv,Memory intensive,0.4458,CPU intensive,0.3155,Memory intensive + CPU intensive
+mvn_build_clojure_02.csv,CPU intensive,0.3476,Memory intensive,0.3453,CPU intensive + Memory intensive
+mvn_build_clojure_03.csv,CPU intensive,0.3503,Memory intensive,0.345,CPU intensive + Memory intensive
+mvn_build_clojure_04.csv,Memory intensive,0.3447,CPU intensive,0.3413,Memory intensive + CPU intensive
+mvn_build_clojure_05.csv,Memory intensive,0.3425,CPU intensive,0.3277,Memory intensive + CPU intensive
+mvn_build_clojure_06.csv,CPU intensive,0.3497,Memory intensive,0.345,CPU intensive + Memory intensive
+mvn_build_clojure_07.csv,CPU intensive,0.3548,Memory intensive,0.3393,CPU intensive + Memory intensive
+mvn_build_clojure_08.csv,Memory intensive,0.3447,CPU intensive,0.3286,Memory intensive + CPU intensive
+mvn_build_clojure_09.csv,CPU intensive,0.3544,Memory intensive,0.3295,CPU intensive + Memory intensive
+mvn_build_clojure_10.csv,CPU intensive,0.3588,Memory intensive,0.3356,CPU intensive + Memory intensive
+mvn_build_jitwatch_01.csv,Memory intensive,0.4825,CPU intensive,0.2947,Memory intensive + CPU intensive
+mvn_build_jitwatch_02.csv,Memory intensive,0.3417,CPU intensive,0.3119,Memory intensive + CPU intensive
+mvn_build_jitwatch_03.csv,Memory intensive,0.3437,CPU intensive,0.3351,Memory intensive + CPU intensive
+mvn_build_jitwatch_04.csv,Memory intensive,0.337,CPU intensive,0.2833,Memory intensive + CPU intensive
+mvn_build_jitwatch_05.csv,CPU intensive,0.3558,Memory intensive,0.3406,CPU intensive + Memory intensive
+mvn_build_jitwatch_06.csv,CPU intensive,0.3502,Memory intensive,0.3424,CPU intensive + Memory intensive
+mvn_build_jitwatch_07.csv,CPU intensive,0.3389,Memory intensive,0.3356,CPU intensive + Memory intensive
+mvn_build_jitwatch_08.csv,CPU intensive,0.3428,Memory intensive,0.3402,CPU intensive + Memory intensive
+mvn_build_jitwatch_09.csv,CPU intensive,0.3986,Memory intensive,0.363,CPU intensive + Memory intensive
+mvn_build_jitwatch_10.csv,CPU intensive,0.3577,Memory intensive,0.3365,CPU intensive + Memory intensive
+mvn_build_langtool_01.csv,Memory intensive,0.4868,CPU intensive,0.2763,None
+mvn_build_langtool_02.csv,CPU intensive,0.4003,Memory intensive,0.3586,CPU intensive + Memory intensive
+mvn_build_langtool_03.csv,Memory intensive,0.4186,CPU intensive,0.3173,Memory intensive + CPU intensive
+mvn_build_langtool_04.csv,Memory intensive,0.4552,CPU intensive,0.3117,Memory intensive + CPU intensive
+mvn_build_langtool_05.csv,Memory intensive,0.3496,CPU intensive,0.3258,Memory intensive + CPU intensive
+mvn_build_langtool_06.csv,Memory intensive,0.3474,CPU intensive,0.334,Memory intensive + CPU intensive
+mvn_build_langtool_07.csv,Memory intensive,0.3447,CPU intensive,0.3129,Memory intensive + CPU intensive
+mvn_build_langtool_08.csv,Memory intensive,0.3956,CPU intensive,0.3623,Memory intensive + CPU intensive
+mvn_build_langtool_09.csv,Memory intensive,0.4853,CPU intensive,0.2122,None
+mvn_build_langtool_10.csv,Memory intensive,0.3975,CPU intensive,0.2944,Memory intensive + CPU intensive
+mvn_build_litemall_01.csv,CPU intensive,0.5619,Memory intensive,0.1907,None
+mvn_build_litemall_02.csv,CPU intensive,0.498,Memory intensive,0.1878,None
+mvn_build_litemall_03.csv,CPU intensive,0.543,Disk intensive,0.1559,None
+mvn_build_litemall_04.csv,CPU intensive,0.4415,Network intensive,0.2459,CPU intensive + Network intensive
+mvn_build_litemall_05.csv,CPU intensive,0.5258,Memory intensive,0.1617,None
+mvn_build_litemall_06.csv,CPU intensive,0.4735,Network intensive,0.2072,None
+mvn_build_litemall_07.csv,CPU intensive,0.4099,Memory intensive,0.3064,CPU intensive + Memory intensive
+mvn_build_litemall_08.csv,CPU intensive,0.4817,Network intensive,0.1965,None
+mvn_build_litemall_09.csv,CPU intensive,0.5428,Disk intensive,0.1559,None
+mvn_build_litemall_10.csv,CPU intensive,0.5003,Network intensive,0.1787,None
+mvn_test_esson_01.csv,Memory intensive,0.4139,CPU intensive,0.3565,Memory intensive + CPU intensive
+mvn_test_esson_02.csv,CPU intensive,0.3528,Memory intensive,0.3446,CPU intensive + Memory intensive
+mvn_test_esson_03.csv,Memory intensive,0.3445,CPU intensive,0.3252,Memory intensive + CPU intensive
+mvn_test_esson_04.csv,CPU intensive,0.3453,Memory intensive,0.3443,CPU intensive + Memory intensive
+mvn_test_esson_05.csv,CPU intensive,0.3442,Memory intensive,0.3438,CPU intensive + Memory intensive
+mvn_test_esson_06.csv,CPU intensive,0.3527,Memory intensive,0.3446,CPU intensive + Memory intensive
+mvn_test_esson_07.csv,CPU intensive,0.3504,Memory intensive,0.3434,CPU intensive + Memory intensive
+mvn_test_esson_08.csv,CPU intensive,0.3543,Memory intensive,0.3447,CPU intensive + Memory intensive
+mvn_test_esson_09.csv,CPU intensive,0.3542,Memory intensive,0.3433,CPU intensive + Memory intensive
+mvn_test_esson_10.csv,CPU intensive,0.3491,Memory intensive,0.3443,CPU intensive + Memory intensive
+mvn_test_jckdb_01.csv,CPU intensive,0.4054,Memory intensive,0.3771,CPU intensive + Memory intensive
+mvn_test_jckdb_02.csv,CPU intensive,0.4446,Memory intensive,0.249,CPU intensive + Memory intensive
+mvn_test_jckdb_03.csv,CPU intensive,0.4428,Memory intensive,0.3224,CPU intensive + Memory intensive
+mvn_test_jckdb_04.csv,CPU intensive,0.4812,Memory intensive,0.205,None
+mvn_test_jckdb_05.csv,Memory intensive,0.3541,CPU intensive,0.345,Memory intensive + CPU intensive
+mvn_test_jckdb_06.csv,CPU intensive,0.5021,Memory intensive,0.2602,None
+mvn_test_jckdb_07.csv,CPU intensive,0.4314,Memory intensive,0.3466,CPU intensive + Memory intensive
+mvn_test_jckdb_08.csv,Memory intensive,0.3967,CPU intensive,0.3727,Memory intensive + CPU intensive
+mvn_test_jckdb_09.csv,CPU intensive,0.559,Memory intensive,0.1835,None
+mvn_test_jckdb_10.csv,Memory intensive,0.4784,CPU intensive,0.3039,Memory intensive + CPU intensive
+mvn_test_jsonjv_01.csv,Memory intensive,0.3387,CPU intensive,0.3317,Memory intensive + CPU intensive
+mvn_test_jsonjv_02.csv,CPU intensive,0.3523,Memory intensive,0.3441,CPU intensive + Memory intensive
+mvn_test_jsonjv_03.csv,Memory intensive,0.3401,CPU intensive,0.3397,Memory intensive + CPU intensive
+mvn_test_jsonjv_04.csv,Memory intensive,0.3388,CPU intensive,0.3155,Memory intensive + CPU intensive
+mvn_test_jsonjv_05.csv,CPU intensive,0.361,Memory intensive,0.336,CPU intensive + Memory intensive
+mvn_test_jsonjv_06.csv,CPU intensive,0.5235,Network intensive,0.1752,None
+mvn_test_jsonjv_07.csv,Memory intensive,0.3442,CPU intensive,0.3436,Memory intensive + CPU intensive
+mvn_test_jsonjv_08.csv,Memory intensive,0.3441,CPU intensive,0.3358,Memory intensive + CPU intensive
+mvn_test_jsonjv_09.csv,CPU intensive,0.3513,Memory intensive,0.3383,CPU intensive + Memory intensive
+mvn_test_jsonjv_10.csv,Memory intensive,0.3438,CPU intensive,0.32,Memory intensive + CPU intensive
+mvn_test_jsonspl_01.csv,CPU intensive,0.5406,Memory intensive,0.2429,None
+mvn_test_jsonspl_02.csv,CPU intensive,0.4951,Memory intensive,0.2928,None
+mvn_test_jsonspl_03.csv,CPU intensive,0.5542,Disk intensive,0.1558,None
+mvn_test_jsonspl_04.csv,CPU intensive,0.5539,Disk intensive,0.1558,None
+mvn_test_jsonspl_05.csv,CPU intensive,0.5542,Disk intensive,0.1558,None
+mvn_test_jsonspl_06.csv,CPU intensive,0.5395,Network intensive,0.1598,None
+mvn_test_jsonspl_07.csv,CPU intensive,0.551,Disk intensive,0.1558,None
+mvn_test_jsonspl_08.csv,CPU intensive,0.5262,Network intensive,0.1731,None
+mvn_test_jsonspl_09.csv,CPU intensive,0.5539,Disk intensive,0.1558,None
+mvn_test_jsonspl_10.csv,CPU intensive,0.5525,Disk intensive,0.1558,None
+mvn_test_jz_01.csv,CPU intensive,0.5087,Memory intensive,0.2422,None
+mvn_test_jz_02.csv,CPU intensive,0.473,Memory intensive,0.2964,CPU intensive + Memory intensive
+mvn_test_jz_03.csv,CPU intensive,0.465,Memory intensive,0.3063,CPU intensive + Memory intensive
+mvn_test_jz_04.csv,CPU intensive,0.5584,Memory intensive,0.2096,None
+mvn_test_jz_05.csv,CPU intensive,0.6239,Network intensive,0.1364,None
+mvn_test_jz_06.csv,CPU intensive,0.5214,Memory intensive,0.2351,None
+mvn_test_jz_07.csv,CPU intensive,0.5964,Memory intensive,0.1474,None
+mvn_test_jz_08.csv,CPU intensive,0.6111,Memory intensive,0.1546,None
+mvn_test_jz_09.csv,CPU intensive,0.533,Memory intensive,0.2068,None
+mvn_test_jz_10.csv,CPU intensive,0.5231,Network intensive,0.1681,None
+network_4_test_01.csv,CPU intensive,0.576,Disk intensive,0.2103,None
+network_4_test_02.csv,Disk intensive,0.3943,CPU intensive,0.319,Disk intensive + CPU intensive
+network_4_test_03.csv,CPU intensive,0.4824,Disk intensive,0.2394,None
+network_4_test_04.csv,CPU intensive,0.4575,Disk intensive,0.2616,CPU intensive + Disk intensive
+network_4_test_05.csv,CPU intensive,0.5008,Network intensive,0.2295,None
+network_4_test_06.csv,CPU intensive,0.4942,Network intensive,0.2291,None
+network_4_test_07.csv,Disk intensive,0.3646,CPU intensive,0.3512,Disk intensive + CPU intensive
+network_4_test_08.csv,CPU intensive,0.5339,Disk intensive,0.2334,None
+network_4_test_09.csv,CPU intensive,0.4237,Disk intensive,0.2981,CPU intensive + Disk intensive
+network_4_test_10.csv,Disk intensive,0.4012,CPU intensive,0.3046,Disk intensive + CPU intensive

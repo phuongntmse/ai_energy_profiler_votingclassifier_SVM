@@ -1,0 +1,14 @@
+column,select
+CpuALL_usage,yes
+Cpu0_usage,no
+Cpu1_usage,no
+Cpu2_usage,no
+Cpu3_usage,no
+cpu_frequency,no
+memory_usage,yes
+Reads_on_sda,yes
+Writes_on_sda,yes
+Energy_usage_during_time,no
+memory_usage_perce,no
+write_rate_during_time,no
+read_rate_during_time,no
