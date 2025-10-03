@@ -1,0 +1,64 @@
+CPU  - Accuracy: 0.9396551724137931
+Classification Report:
+                    precision    recall  f1-score   support
+
+    CPU intensive       0.95      0.98      0.96        55
+   Disk intensive       0.97      0.97      0.97        30
+ Memory intensive       0.91      0.67      0.77        15
+Network intensive       0.89      1.00      0.94        16
+
+         accuracy                           0.94       116
+        macro avg       0.93      0.90      0.91       116
+     weighted avg       0.94      0.94      0.94       116
+
+MEMORY  - Accuracy: 0.9224137931034483
+Classification Report:
+                    precision    recall  f1-score   support
+
+    CPU intensive       0.89      0.98      0.93        55
+   Disk intensive       1.00      0.80      0.89        30
+ Memory intensive       0.93      0.93      0.93        15
+Network intensive       0.94      0.94      0.94        16
+
+         accuracy                           0.92       116
+        macro avg       0.94      0.91      0.92       116
+     weighted avg       0.93      0.92      0.92       116
+
+DISK_IO  - Accuracy: 0.75
+Classification Report:
+                    precision    recall  f1-score   support
+
+    CPU intensive       0.67      0.98      0.79        55
+   Disk intensive       0.97      0.97      0.97        30
+ Memory intensive       0.80      0.27      0.40        15
+Network intensive       0.00      0.00      0.00        16
+
+         accuracy                           0.75       116
+        macro avg       0.61      0.55      0.54       116
+     weighted avg       0.67      0.75      0.68       116
+
+ENERGY  - Accuracy: 0.9913793103448276
+Classification Report:
+                    precision    recall  f1-score   support
+
+    CPU intensive       0.98      1.00      0.99        55
+   Disk intensive       1.00      1.00      1.00        30
+ Memory intensive       1.00      0.93      0.97        15
+Network intensive       1.00      1.00      1.00        16
+
+         accuracy                           0.99       116
+        macro avg       1.00      0.98      0.99       116
+     weighted avg       0.99      0.99      0.99       116
+
+ALL  - Accuracy: 0.9913793103448276
+Classification Report:
+                    precision    recall  f1-score   support
+
+    CPU intensive       0.98      1.00      0.99        55
+   Disk intensive       1.00      1.00      1.00        30
+ Memory intensive       1.00      1.00      1.00        15
+Network intensive       1.00      0.94      0.97        16
+
+         accuracy                           0.99       116
+        macro avg       1.00      0.98      0.99       116
+     weighted avg       0.99      0.99      0.99       116

@@ -42,14 +42,15 @@ for file_name in os.listdir(TESTING_DATA_PATH):
 			X = pd.DataFrame([feats])
 
 			try:
-				model = joblib.load(f"{MODEL_DIR}/model_svm_{group}.pkl")
-				scaler = joblib.load(f"{MODEL_DIR}/scaler_svm_{group}.pkl")
-				expected_cols = joblib.load(f"{MODEL_DIR}/metrics_{group}.pkl")
+				model = joblib.load(f"{MODEL_DIR}/model_svm_{group}_{SVM_KERNEL}_{SVM_GAMMA}_{SVM_C}.pkl")
+				scaler = joblib.load(f"{MODEL_DIR}/scaler_svm_{group}_{SVM_KERNEL}_{SVM_GAMMA}_{SVM_C}.pkl")
+				expected_cols = joblib.load(f"{MODEL_DIR}/metrics_{group}_{SVM_KERNEL}_{SVM_GAMMA}_{SVM_C}.pkl")
 
 				# Ensure the order of features matches
 				X = X[expected_cols]
 				# Handle missing values
 				X = X.fillna(X.mean())
+				X = X.fillna(0)          # then replace any remaining NaN with 0
 
 				X_scaled = scaler.transform(X)
 
@@ -119,9 +120,9 @@ for file_name in os.listdir(TESTING_DATA_PATH):
 									
 # Save results to CSV
 results_df = pd.DataFrame(results)
-results_df.to_csv(RESULT_PATH, index=False)
+results_df.to_csv(f"{RESULT_DIR}/{RESULT_PATH}", index=False)
 
 results2_df = pd.DataFrame(results2)
-results2_df.to_csv(f"full_{RESULT_PATH}", index=False)
+results2_df.to_csv(f"{RESULT_DIR}/full_{RESULT_PATH}", index=False)
 
 print(f"\n Prediction complete. Results saved to {RESULT_PATH} and full_{RESULT_PATH}.")

@@ -69,7 +69,7 @@ for group_name, selected_columns in FEATURE_GROUPS.items():
 		X_test_scaled = scaler.transform(X_test)
 
 		# Train the SVM classifier
-		svm_model = SVC(kernel='rbf', C=1.0, gamma='scale', random_state=42,probability=True)
+		svm_model = SVC(kernel=SVM_KERNEL, C=SVM_C, gamma=SVM_GAMMA, random_state=42,probability=True)
 		svm_model.fit(X_train_scaled, y_train)
 
 		# Make predictions
@@ -81,6 +81,6 @@ for group_name, selected_columns in FEATURE_GROUPS.items():
 		# print("Classification Report:\n", classification_report(y_test, y_pred))
 		
 		os.makedirs(MODEL_DIR, exist_ok=True)
-		joblib.dump(svm_model, f"{MODEL_DIR}/model_svm_{group_name}.pkl")
-		joblib.dump(scaler, f"{MODEL_DIR}/scaler_svm_{group_name}.pkl")
-		joblib.dump(list(df_X.columns), f"{MODEL_DIR}/metrics_{group_name}.pkl")
+		joblib.dump(svm_model, f"{MODEL_DIR}/model_svm_{group_name}_{SVM_KERNEL}_{SVM_GAMMA}_{SVM_C}.pkl")
+		joblib.dump(scaler, f"{MODEL_DIR}/scaler_svm_{group_name}_{SVM_KERNEL}_{SVM_GAMMA}_{SVM_C}.pkl")
+		joblib.dump(list(df_X.columns), f"{MODEL_DIR}/metrics_{group_name}_{SVM_KERNEL}_{SVM_GAMMA}_{SVM_C}.pkl")

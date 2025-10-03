@@ -8,10 +8,13 @@ MODEL_DIR  = "./ai_models"
 # EXPECTED_FEATURES_PATH = "expected_features.pkl"
 
 # Paths to load test data and save results
-TESTING_DATA_PATH = "./test"
-RESULT_PATH = "prediction_results.csv"
-# TESTING_DATA_PATH = "./test-2"
-# RESULT_PATH = "prediction_results_new.csv"
+RESULT_DIR = "./all-results"
+# TESTING_DATA_PATH = "./test"
+# RESULT_PATH = "prediction_results_seenbm_poly_scale_10.csv"
+# TESTING_DATA_PATH = "./test-unseen"
+# RESULT_PATH = "prediction_results_unseenbm_poly_scale_10.csv"
+TESTING_DATA_PATH = "./test-grid5000"
+RESULT_PATH = "prediction_results_seenbm_grid5000_sigmoid_scale_1000.csv"
 
 # Simulate anomalies setup
 INPUT_DATA_PATH = "./data/network-2"
@@ -27,3 +30,8 @@ FEATURE_GROUPS = {
 	"ENERGY": ["Energy_usage_during_time"],
 	"ALL": ["CpuALL_usage","cpu_frequency","Energy_usage_during_time","memory_usage","Writes_on_sda","Reads_on_sda"]
 }
+
+# SVM parameters
+SVM_C = 1000
+SVM_GAMMA='scale'
+SVM_KERNEL='sigmoid'
