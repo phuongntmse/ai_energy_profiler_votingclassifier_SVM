@@ -9,12 +9,12 @@ MODEL_DIR  = "./ai_models"
 
 # Paths to load test data and save results
 RESULT_DIR = "./all-results"
-# TESTING_DATA_PATH = "./test"
-# RESULT_PATH = "prediction_results_seenbm_poly_scale_10.csv"
+TESTING_DATA_PATH = "./test"
+RESULT_PATH = "prediction_results_seenbm_sigmoid_scale_1000.csv"
 # TESTING_DATA_PATH = "./test-unseen"
 # RESULT_PATH = "prediction_results_unseenbm_poly_scale_10.csv"
-TESTING_DATA_PATH = "./test-grid5000"
-RESULT_PATH = "prediction_results_seenbm_grid5000_sigmoid_scale_1000.csv"
+# TESTING_DATA_PATH = "./test-grid5000"
+# RESULT_PATH = "prediction_results_seenbm_grid5000_sigmoid_scale_1000.csv"
 
 # Simulate anomalies setup
 INPUT_DATA_PATH = "./data/network-2"
